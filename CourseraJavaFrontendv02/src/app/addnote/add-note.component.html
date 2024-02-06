@@ -1,0 +1,5 @@
+<form class="create-note" >
+	<input type="text" id="title" name="title" placeholder="Title" required [(ngModel)]="note.tittle" />
+	<textarea id="content" name="content" placeholder="Take a note..." rows="1" [(ngModel)]="note.content" ></textarea>
+	<button mat-fab color="primary" (click)="onClickAdd()" ><mat-icon>add</mat-icon></button>
+</form>

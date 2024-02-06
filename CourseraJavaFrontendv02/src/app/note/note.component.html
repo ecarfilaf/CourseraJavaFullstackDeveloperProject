@@ -1,0 +1,7 @@
+<div *ngFor="let note of notes" Class="note">
+	<h1>{{note.tittle}}</h1>
+	<p>{{note.content}}</p>
+	<button mat-fab color="warn" aria-label="Example icon button with a delete icon" (click)="onClickDel(note.id)">
+		<mat-icon>delete</mat-icon>
+	</button>
+</div>
