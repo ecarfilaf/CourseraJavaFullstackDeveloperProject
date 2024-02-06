@@ -3,6 +3,9 @@
 # CurseraJavaBackend
 # SpringBootMysqlJpaProject
 
+This project was generated with [Spring initializer](https://start.spring.io/) Project Maven & Spring Boot version 3.3.0 (M1).
+
+To Run App Rigth Click on src/main/java/com.ecarfilaf/Application.java and Run As Java Aplication
 
 
 # CurseraJavaFrontend
